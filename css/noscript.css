@@ -1,0 +1,39 @@
+body {
+	overflow: auto;
+}
+.ps-container,
+.ps-container div,
+.ps-contentwrapper,
+.ps-header {
+	position: relative;
+	width: 100%;
+	top: auto;
+	bottom: auto;
+	overflow: visible;
+}
+
+.ps-contentwrapper div {
+	padding-left: 240px;
+	margin-bottom: 80px;
+	height: 300px;
+}
+
+.ps-slides > div {
+	width: 200px;
+	height: 200px;
+	positon: relative;
+	margin-bottom: 172px;
+	box-shadow: none;
+}
+
+.ps-slidewrapper > nav{
+	display: none;
+}
+
+.ps-container .ps-slidewrapper {
+	z-index: 10000;
+	position: absolute;
+	top: 270px;
+	width: 200px;
+	left: 0px;
+}
