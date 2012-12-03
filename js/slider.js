@@ -26,7 +26,7 @@ var Slider = (function() {
 			'OTransition' : 'oTransitionEnd',
 			'msTransition' : 'MSTransitionEnd',
 			'transition' : 'transitionend'
-		};
+		},
 		// its name
 		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
 
